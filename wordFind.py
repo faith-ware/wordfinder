@@ -6,7 +6,7 @@ def word_find():
         theword = input("Enter an English word to get all the possible words that can be derived from it:\n").lower()
         print("-----------")
         #open and read the files as a list containing all the english words
-        openFile = open(r"C:\Users\USER\Desktop\Python_practice\Read_write\words.txt")
+        openFile = open(r"words.txt")
         readFile = openFile.readlines()
         #Remove all the newlines(\n) in the list
         newFiles = "".join(readFile).lower()
